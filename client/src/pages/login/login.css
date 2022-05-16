@@ -1,0 +1,101 @@
+.login-form-main-container {
+  background-color: #ffdeeb;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.6rem;
+
+  max-width: 35rem;
+
+  margin: 10rem auto 0 auto;
+  padding: 1.2rem;
+  border-radius: 10px;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+
+  width: 100%;
+
+  padding: 1.8rem;
+}
+
+.login-form-title-main-container {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.login-form-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+
+  margin-top: 2.4rem;
+}
+
+.register-form-title-dash {
+  font-size: 2.4rem;
+  color: #bbb;
+}
+
+.register-form-title-text {
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.register-form-title-sentence {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.register-form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.register-form-input label {
+  font-size: 1.4rem;
+  font-weight: 500;
+  transform: translateX(0.4rem);
+
+  color: #333;
+}
+
+.register-form-input input {
+  font-size: 1.6rem;
+  font-family: inherit;
+  color: inher;
+
+  width: 100%;
+  padding: 1rem 1.4rem;
+
+  border: none;
+  border-radius: 8px;
+}
+
+.register-form-input input::placeholder {
+  color: #aaa;
+}
+
+.btn-register-form-submit {
+  background-color: #339af0;
+
+  font-size: 2.4rem;
+  color: #fff;
+
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-register-form-submit:hover {
+  background-color: #228be6;
+  cursor: pointer;
+}

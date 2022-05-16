@@ -1,0 +1,141 @@
+.item-info-container-main {
+  max-width: 90vw;
+
+  margin: 2rem auto 0 auto;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+
+.item-img-container {
+  flex: 0 0 70%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 50rem;
+  width: 100%;
+
+  background-color: rgba(238, 238, 238, 0.4);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.item-img {
+  height: 100%;
+}
+
+.item-info-container {
+  flex: 0 0 20%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.4rem;
+
+  max-height: 60rem;
+  padding: 1.6rem 1.6rem;
+
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.item-name {
+  font-size: 3.2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.item-price {
+  font-size: 4.4rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.item-category-container {
+  margin-top: 1.4rem;
+}
+
+.item-category-container,
+.item-condition-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.item-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.item-condition,
+.item-category {
+  font-size: 1.6rem;
+}
+
+.item-seller-info-container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.item-seller-info-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  margin-top: 1.8rem;
+}
+
+.item-seller-img-container {
+}
+
+.item-seller-img {
+  width: 5rem;
+}
+
+.item-seller {
+  font-size: 1.6rem;
+}
+
+.btn-container {
+  width: 100%;
+}
+
+.btn-add-to-cart {
+  background-color: #339af0;
+  color: #fff;
+
+  border: none;
+  margin-top: 2rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 8px;
+
+  width: 100%;
+
+  cursor: pointer;
+}
+
+.btn-add-to-cart:hover {
+  background-color: #228be6;
+}
+
+.item-description-container {
+  max-width: 90vw;
+
+  margin: 3.2rem auto 0 auto;
+}
+
+.item-description-text {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.item-description {
+  font-size: 1.4rem;
+  line-height: 2rem;
+
+  margin-top: 1.2rem;
+}

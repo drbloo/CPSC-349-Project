@@ -1,0 +1,38 @@
+[
+  {
+    "email": "js@gmail.com",
+    "password": "abcdefg",
+    "first_name": "John",
+    "last_name": "Smith",
+    "dob": "1997-1-2",
+    "listing": [],
+    "transactions": [],
+    "shopping_cart": [],
+    "seller_rating": 4.5,
+    "seller_rating_count": 23
+  },
+  {
+    "email": "ss@gmail.com",
+    "password": "123456",
+    "first_name": "Sarah",
+    "last_name": "Smith",
+    "dob": "1988-6-6",
+    "listing": [],
+    "transactions": [],
+    "shopping_cart": [],
+    "seller_rating": 3.7,
+    "seller_rating_count": 7
+  },
+  {
+    "email": "ak@gmail.com",
+    "password": "654321",
+    "first_name": "Andy",
+    "last_name": "Kim",
+    "dob": "1991-11-22",
+    "listing": [],
+    "transactions": [],
+    "shopping_cart": [],
+    "seller_rating": 4.1,
+    "seller_rating_count": 85
+  }
+]

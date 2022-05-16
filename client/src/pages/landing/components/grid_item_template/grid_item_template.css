@@ -1,0 +1,84 @@
+.grid-item-template {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  max-height: 30rem;
+  max-width: 25rem;
+
+  padding: 1rem;
+
+  border-radius: 5px;
+}
+
+.grid-item-template:hover {
+  cursor: pointer;
+}
+
+.grid-item-img-container {
+  flex: 0 1 70%;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.grid-item-img-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(51, 51, 51, 0);
+
+  transition: all 0.3s;
+}
+
+.grid-item-template:hover .grid-item-img-cover {
+  background-color: rgba(51, 51, 51, 0.2);
+}
+
+.grid-item-img {
+  max-width: 100%;
+}
+
+.grid-item-info-container {
+  flex: 0 1 30%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.grid-item-name {
+  font-size: 2.2rem;
+  letter-spacing: -0.5px;
+  font-weight: 600;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.grid-item-template:hover .grid-item-name {
+  text-decoration: underline;
+}
+
+.grid-item-price {
+  font-size: 1.8rem;
+}
+
+.grid-item-seller {
+  margin-top: 0.6rem;
+
+  font-size: 1.4rem;
+  color: #777;
+}

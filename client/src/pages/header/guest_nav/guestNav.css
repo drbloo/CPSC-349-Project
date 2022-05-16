@@ -1,0 +1,20 @@
+.nav-link-container-guest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+
+  padding: 1rem;
+  margin-right: 4.8rem;
+}
+
+.btn-register,
+.btn-login {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

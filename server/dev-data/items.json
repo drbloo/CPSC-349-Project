@@ -1,0 +1,128 @@
+[
+  {
+    "name": "RTX 3090 BRAND NEW!!!",
+    "description": "This is a brand new Nvidia RTX 3090! It is missing the plastic wrapping, but it is still new.",
+    "price": 2400,
+    "seller_id": "brooooo",
+    "image_url": "3090.jpg",
+    "condition": "New",
+    "category": "Electronics"
+  },
+  {
+    "name": "Thor's hammer",
+    "description": "This is the ACTUAL prop from the Avenger films. Definitely not some cheap knock off",
+    "price": 49.99,
+    "seller_id": "brooooo",
+    "image_url": "hammer.webp",
+    "condition": "Used",
+    "category": "Games_Entertainment"
+  },
+  {
+    "name": "Logitech Keyboard",
+    "description": "This keyboard has slight sign of use. A little bit of scratch. 100% functional",
+    "price": 30,
+    "seller_id": "brooooo",
+    "image_url": "keyboard.jpg",
+    "condition": "Used",
+    "category": "Electronics"
+  },
+  {
+    "name": "Microsoft Surface",
+    "description": "Selling my surface. 90% new. Only used it to take notes in school.",
+    "price": 1800,
+    "seller_id": "brooooo",
+    "image_url": "laptop.jpg",
+    "condition": "Used",
+    "category": "Electronics"
+  },
+  {
+    "name": "Batman lego set",
+    "description": "Idk why I bought this shit, It is still new. Never opened it",
+    "price": 35,
+    "seller_id": "brooooo",
+    "image_url": "lego.jpeg",
+    "condition": "New",
+    "category": "Games_Entertainment"
+  },
+  {
+    "name": "New Yamaha piano",
+    "description": "Yamaha piano. 80% new. Some sign of use.",
+    "price": 975,
+    "seller_id": "brooooo",
+    "image_url": "piano.jpg",
+    "condition": "Used",
+    "category": "Art"
+  },
+  {
+    "name": "Pokemon Yellow",
+    "description": "Original pokemon yellow for the gameboy.",
+    "price": 40,
+    "seller_id": "brooooo",
+    "image_url": "pokemon.jpg",
+    "condition": "Used",
+    "category": "Games_Entertainment"
+  },
+  {
+    "name": "Playstation 2",
+    "description": "11yr old Playstation 2. Tested and still functional.",
+    "price": 75,
+    "seller_id": "brooooo",
+    "image_url": "ps2.jpg",
+    "condition": "Used",
+    "category": "Electronics"
+  },
+  {
+    "name": "Captain America Shield",
+    "description": "Best shield ever.",
+    "price": 66,
+    "seller_id": "brooooo",
+    "image_url": "shield.jpg",
+    "condition": "Used",
+    "category": "Games_Entertainment"
+  },
+  {
+    "name": "Nitendo Switch",
+    "description": "Functional nitendo switch.",
+    "price": 250,
+    "seller_id": "brooooo",
+    "image_url": "switch.jpeg",
+    "condition": "Used",
+    "category": "Electronics"
+  },
+  {
+    "name": "Cat Food Mega Pack",
+    "description": "A few bags of Hills cat food. Unopened, expires in 2024.",
+    "price": 43,
+    "seller_id": "brooooo",
+    "image_url": "catfood.webp",
+    "condition": "new",
+    "category": "Pet_Supplies"
+  },
+  {
+    "name": "Fishing Rod",
+    "description": "A fishing rod that comes with a reel and lines. Slight sign of use, fully functional.",
+    "price": 21.5,
+    "seller_id": "brooooo",
+    "image_url": "fishingrod.jpg",
+    "condition": "Used",
+    "category": "Sports"
+  },
+  {
+    "name": "Jean",
+    "description": "A normal pair of jean.",
+    "price": 15.99,
+    "seller_id": "brooooo",
+    "image_url": "jean.jpg",
+    "condition": "Used",
+    "category": "Clothing_Accessories"
+  },
+  {
+    "name": "Brand new pot for planting",
+    "description": "Can be used to plant any sort of small plant, soil does not come included.",
+    "price": 25,
+    "seller_id": "brooooo",
+    "image_url": "plantpot.jpg",
+    "condition": "new",
+    "category": "Home"
+  }
+]

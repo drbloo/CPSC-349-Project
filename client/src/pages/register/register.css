@@ -1,0 +1,144 @@
+.register-form-main-container * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.register-form-main-container {
+  background-color: #ffdeeb;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.6rem;
+
+  max-width: 40rem;
+
+  margin: 10rem auto 0 auto;
+  padding: 1.2rem;
+  border-radius: 10px;
+}
+
+.register-form-title-main-container {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.register-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+
+  padding: 1.8rem;
+}
+
+.register-form-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+
+  margin-top: 2.4rem;
+}
+
+.register-form-title-dash {
+  font-size: 2.4rem;
+  color: #bbb;
+}
+
+.register-form-title-text {
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.register-form-title-sentence {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.register-form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.register-form-input label {
+  font-size: 1.4rem;
+  font-weight: 500;
+  transform: translateX(0.4rem);
+
+  color: #333;
+}
+
+.register-form-input input {
+  font-size: 1.6rem;
+  font-family: inherit;
+  color: inher;
+
+  width: 100%;
+  padding: 1rem 1.4rem;
+
+  border: none;
+  border-radius: 8px;
+}
+
+.register-form-input input::placeholder {
+  color: #aaa;
+}
+
+.register-form-name-container {
+  display: flex;
+  gap: 3.6rem;
+}
+
+.register-form-agreement-container {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+
+  padding: 0.2rem;
+}
+
+.register-form-agreement-container-error {
+  border: 2px solid #f03e3e;
+}
+
+.register-form-input-agreement {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.register-form-agreement-container span {
+  font-size: 1.4rem;
+  color: #888;
+}
+
+.register-form-agreement-container a:link,
+.register-form-agreement-container a:visited {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #4263eb;
+}
+
+.register-form-agreement-container a:hover,
+.register-form-agreement-container a:active {
+  color: #364fc7;
+}
+
+.btn-register-form-submit {
+  background-color: #339af0;
+
+  font-size: 2.4rem;
+  color: #fff;
+
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-register-form-submit:hover {
+  background-color: #228be6;
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.item-grid-container-main {
+  width: 100%;
+
+  display: flex;
+  align-items: flex-start;
+}
+
+.item-grid-container {
+  /* background-color: pink; */
+
+  flex: 0 1 80%;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  column-gap: 2.4rem;
+  row-gap: 1.4rem;
+  justify-content: space-between;
+
+  padding: 1rem;
+}
